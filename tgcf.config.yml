@@ -29,8 +29,11 @@ plugins:
   filter:
     text:
       blacklist: ["badword"]
+    files:
 
-# read full documentation of plugins here https://git.io/J3NuC
+      whitelist: [document,nofile] 
+
+# read full documentation of plugins here ://git.io/J3NuC
 
 ##########################
 
