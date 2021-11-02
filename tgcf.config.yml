@@ -1,9 +1,9 @@
 admins: []
 forwards:
-- source: -1001128045651
+- source: -1001389499393
   dest:
-  - -1001210537567
-  offset: 1061521
+  - -1001659164529
+  offset: 57
   end: null
 show_forwarded_from: false
 live:
@@ -11,12 +11,3 @@ live:
   delete_on_edit: null
 past:
   delay: 3.0
-plugins:
-  filter:
-    text:
-      blacklist:
-      - badword
-    files:
-      whitelist:
-      - document
-      - video
